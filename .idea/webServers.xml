@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="8d1f5924-5c67-4fca-ae28-81ec315c7403" name="blgs.zjrson.cn" url="http://www.zjrson.cn">
+        <fileTransfer host="www.zjrson.cn" port="22" rootFolder="/home/ubuntu/hexo" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

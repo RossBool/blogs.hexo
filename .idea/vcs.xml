@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/.deploy_git" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/themes/amber" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/themes/black-blue" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/themes/clover" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/themes/concise" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/themes/hexo-theme-icalm" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/themes/hexo-theme-icalm/source/css/normalize" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/themes/hexo-theme-icalm/source/js/pager" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/themes/next" vcs="Git" />
+  </component>
+</project>
