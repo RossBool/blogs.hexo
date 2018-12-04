@@ -4,10 +4,12 @@ date: 2018-12-04 00:42:37
 tags: 'Python'
 ---
 
-### if ... else...
+###  知识点
+ 1. if ... else...
 
-#### elif/else 都是跟if绑在一起使用的
-    ```bash
+#### `elif/else` 都是跟 `if` 绑在一起使用的
+
+```bash
     if True:
     pass
     else:
@@ -27,7 +29,7 @@ tags: 'Python'
     #
     # print(type(a))  # str字符串
     
-    
+
     a = input()
     
     a = int(a)
@@ -40,11 +42,7 @@ tags: 'Python'
         print('banana')
     else:
         print('shopping')
-
-    ```
-
-    #### while循环
-    #### for循环
+```
     
     
     
