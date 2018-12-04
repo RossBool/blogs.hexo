@@ -81,18 +81,18 @@
 
 
 
-<meta name="description" content="逻辑运算符 和 算数运算符逻辑运算符 优先级 123456789not &amp;gt; and &amp;gt; or A = 1B = 2C = 3A or B and C&amp;gt;&amp;gt;&amp;gt; 1   算术运算符优先级(比逻辑运算符大) 同级运算级，从左到右运算（+，-）  区别 括号的优先级最高1.1 左结合（先执行左边） 和 右结合（先执行右边）  12345a or b and c  &amp;gt; 本来">
+<meta name="description" content="逻辑运算符 和 算数运算符逻辑运算符 优先级 123456789not &amp;gt; and &amp;gt; or A = 1B = 2C = 3A or B and C&amp;gt;&amp;gt;&amp;gt; 1   算术运算符优先级(比逻辑运算符大) 同级运算级，从左到右运算（+，-）12   区别 括号的优先级最高1.1 左结合（先执行左边） 和 右结合（先执行右边）  12345a or b and c  &amp;gt;">
 <meta name="keywords" content="Python">
 <meta property="og:type" content="article">
 <meta property="og:title" content="python语法">
 <meta property="og:url" content="https://blogs.zjrson.cn/2018/12/03/python语法/index.html">
 <meta property="og:site_name" content="谁家小子在偷看">
-<meta property="og:description" content="逻辑运算符 和 算数运算符逻辑运算符 优先级 123456789not &amp;gt; and &amp;gt; or A = 1B = 2C = 3A or B and C&amp;gt;&amp;gt;&amp;gt; 1   算术运算符优先级(比逻辑运算符大) 同级运算级，从左到右运算（+，-）  区别 括号的优先级最高1.1 左结合（先执行左边） 和 右结合（先执行右边）  12345a or b and c  &amp;gt; 本来">
+<meta property="og:description" content="逻辑运算符 和 算数运算符逻辑运算符 优先级 123456789not &amp;gt; and &amp;gt; or A = 1B = 2C = 3A or B and C&amp;gt;&amp;gt;&amp;gt; 1   算术运算符优先级(比逻辑运算符大) 同级运算级，从左到右运算（+，-）12   区别 括号的优先级最高1.1 左结合（先执行左边） 和 右结合（先执行右边）  12345a or b and c  &amp;gt;">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-12-04T09:24:30.558Z">
+<meta property="og:updated_time" content="2018-12-03T16:12:37.912Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="python语法">
-<meta name="twitter:description" content="逻辑运算符 和 算数运算符逻辑运算符 优先级 123456789not &amp;gt; and &amp;gt; or A = 1B = 2C = 3A or B and C&amp;gt;&amp;gt;&amp;gt; 1   算术运算符优先级(比逻辑运算符大) 同级运算级，从左到右运算（+，-）  区别 括号的优先级最高1.1 左结合（先执行左边） 和 右结合（先执行右边）  12345a or b and c  &amp;gt; 本来">
+<meta name="twitter:description" content="逻辑运算符 和 算数运算符逻辑运算符 优先级 123456789not &amp;gt; and &amp;gt; or A = 1B = 2C = 3A or B and C&amp;gt;&amp;gt;&amp;gt; 1   算术运算符优先级(比逻辑运算符大) 同级运算级，从左到右运算（+，-）12   区别 括号的优先级最高1.1 左结合（先执行左边） 和 右结合（先执行右边）  12345a or b and c  &amp;gt;">
 
 
 
@@ -368,14 +368,16 @@
 </li>
 </ol>
 <h4 id="算术运算符"><a href="#算术运算符" class="headerlink" title="算术运算符"></a>算术运算符</h4><h4 id="优先级-比逻辑运算符大"><a href="#优先级-比逻辑运算符大" class="headerlink" title="优先级(比逻辑运算符大)"></a>优先级(比逻辑运算符大)</h4><ol>
-<li>同级运算级，从左到右运算（+，-）</li>
+<li>同级运算级，从左到右运算（+，-）<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+</li>
 </ol>
 <h4 id="区别"><a href="#区别" class="headerlink" title="区别"></a>区别</h4><ol>
 <li>括号的优先级最高<br>1.1 左结合（先执行左边） 和 右结合（先执行右边）</li>
 </ol>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">a or b and c  &gt; 本来优先级 是先执行 and操作 然后是 or操作</span><br><span class="line"></span><br><span class="line">（a or b） and c &gt; 先执行括号里面的，然后再执行c</span><br><span class="line"></span><br><span class="line">( a or b) and (c+1)  &gt; 先执行括号里面的，在执行and操作</span><br></pre></td></tr></table></figure>
 <h3 id="思考题："><a href="#思考题：" class="headerlink" title="思考题："></a>思考题：</h3>  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">a=1</span><br><span class="line">b=2</span><br><span class="line">c=2</span><br><span class="line">not a or b + 2 == c</span><br><span class="line">&gt;&gt;&gt; <span class="literal">false</span></span><br></pre></td></tr></table></figure>
-<h5 id="分析："><a href="#分析：" class="headerlink" title="分析："></a>分析：</h5>
+<h5 id="分析："><a href="#分析：" class="headerlink" title="分析："></a>分析：</h5>  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"> </span><br></pre></td></tr></table></figure>
+
       
     </div>
     
